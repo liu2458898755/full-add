@@ -7,17 +7,17 @@
 #define INT_SIGN 0x8000000000000000L
 
 /*
-			  s
-			  ^
-			  |
-		-------------
-		|			|
+              s
+              ^
+              |
+        -------------
+        |           |
 c2  <---| full add  |<--- c1
-		|			|
-		-------------
-			^	^
-			|	|
-			a	b
+        |           |
+        -------------
+            ^   ^
+            |   |
+            a   b
 */
 
 void fullAdd(bool a, bool b, bool c1, bool& c2, bool& s) {
